@@ -48,7 +48,5 @@ export class PropertyComponent implements OnInit {
 
     // Add property to array
     this.properties.push(property);
-
-    console.log(property);
   };
 }
