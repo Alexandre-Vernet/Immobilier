@@ -1,9 +1,12 @@
-import { Injectable } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { PropertyService } from '../Property.service';
 
-@Injectable({
-  providedIn: 'root',
+@Component({
+  selector: 'app-Property',
+  templateUrl: './Property.component.html',
+  styleUrls: ['./Property.component.scss'],
 })
-export class PropertyService {
+export class PropertyComponent implements OnInit {
   properties: {
     id: number;
     name: string;
@@ -50,5 +53,9 @@ export class PropertyService {
     },
   ];
 
-  constructor() {}
+  constructor(private propertyService: PropertyService) {
+    // this.properties = this.propertyService;
+  }
+
+  ngOnInit() {}
 }
