@@ -17,7 +17,7 @@ export class PropertyService {
       name: 'efef',
       address: '36 rue du petit soleil',
       price: 220000,
-      owner: 'Jean DUJARDIN',
+      owner: 'Alex',
       description:
         'Appartement avec balcon, vue sur la mer, quartier calme et agréable',
     },
@@ -27,26 +27,39 @@ export class PropertyService {
       address: '146 avenue des 3 glands',
       price: 123000,
       owner: 'Bob RAZOWSKI',
-      description:
-        'Appartement avec balcon, vue sur la mer, quartier calme et agréable',
+      description: 'Petit appartement en résidence avec piscine',
     },
     {
       id: 2,
       name: 'T2 centre toulouse',
       address: '56 avenue François Verdier',
       price: 400000,
-      owner: 'Moi',
-      description:
-        'Appartement avec balcon, vue sur la mer, quartier calme et agréable',
+      owner: 'Alex',
+      description: 'Appartement plein coeur de toulouse, métro B à proximité',
     },
     {
       id: 3,
-      name: 'Studio meublé',
+      name: 'Studio entièrement meublé',
       address: '17 avenue St Perdu',
       price: 220000,
       owner: 'Jean DUJARDIN',
-      description:
-        'Appartement avec balcon, vue sur la mer, quartier calme et agréable',
+      description: 'Studio éloigné de la ville',
+    },
+    {
+      id: 4,
+      name: 'Studio pas cher meublé',
+      address: '136 rue de la Paix',
+      price: 450000,
+      owner: 'Jean DUJARDIN',
+      description: 'Appartement bruyant, chiant, cher',
+    },
+    {
+      id: 5,
+      name: 'Villa luxueuse',
+      address: '136 rue de la Paix',
+      price: 450000,
+      owner: 'Jean DUJARDIN',
+      description: 'Appartement bruyant, chiant, cher',
     },
   ];
 
